@@ -1,0 +1,153 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0d8dd ;
+  background-image: url(background.jpg);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* NAVBAR */
+
+nav ul {
+    margin-top: 0;
+    padding-top: 1em;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    background: #a5b5db;
+    padding-bottom: 1em;
+
+  }
+
+  nav a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+    border-radius: 5%;
+    background-color: #FFF;
+    padding: 0.5em 1em;
+    border: 1px solid black;
+  }
+
+  nav a:hover,
+  nav a:focus {
+    color: #FFF;
+    transition-duration: 0.4s;
+    background-color: #555555;
+  }
+  
+  nav ul a:active {
+    color: red;
+  }
+
+  
+ 
+
+  /* MAIN */
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .welcome {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .message_ok {
+    background-color: #a5b5db;
+  }
+  
+  .message_error {
+    background-color: red;
+  }
+  
+  /* FORM STYLES */
+  
+  label {
+    display: block;
+  }
+  
+  label abbr {
+    color: red;
+  }
+  
+  input:invalid {
+    border: 2px dashed red;
+  }
+  
+  input:valid {
+    border: 1px solid green;
+  }
+
+  input[type=submit] {
+    cursor: pointer;
+    border-radius: 5%;
+    background-color: #FFF;
+    padding: 0.5em 2em;
+    border: 1px solid black;
+  }
+
+  input[type=submit]:hover,
+  input[type=submit]:focus {
+    color: #FFF;
+    transition-duration: 0.4s;
+    background-color: #555555;
+  }
+
+  select {
+    width: 10vw;
+  }
+
+  
+  /* TABLE */
+  table {
+    margin: 25px auto;
+    border-collapse: collapse;
+    border: 1px solid #eee;
+    border-bottom: 2px solid #00cccc;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1), 0px 10px 20px rgba(0, 0, 0, 0.05),
+      0px 20px 20px rgba(0, 0, 0, 0.05), 0px 30px 20px rgba(0, 0, 0, 0.05);
+  }
+  
+  th,
+  td {
+    color: #999;
+    border: 1px solid #eee;
+    padding: 12px 35px;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  
+  .total {
+    text-align: right;
+  }
+  
+  tr:hover {
+    background: #f4f4f4;
+  }
+  td:hover {
+    color: #555;
+  }
+  
+  thead th {
+    background: #00cccc;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  
+  .highlight {
+    background: yellow;
+  }
+
+  .center {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+ 
+
+  
+  /* TYPOGRAPHY */
